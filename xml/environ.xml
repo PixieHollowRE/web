@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <environment>
 	<siteCode>US.EN.PIX</siteCode>
-	<showVersion>false</showVersion>
+	<showVersion>true</showVersion>
 	<securityPolicyPort>843</securityPolicyPort>
 	<host>127.0.0.1</host>
 	<port>8012</port>
