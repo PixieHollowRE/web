@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Hm, someone is in dire need of baubling, I see! Bella Rose, that's the name to remember, dear friend. </response_0_0>
+		<response_0_1>I sell all those sparkly fun odds and ends that take any outfit from boring to soaring! Go, go, poke about and see if anything puts a gleam in your eye!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>
