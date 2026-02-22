@@ -51,7 +51,7 @@
 	<contactUsURL>http://disney.go.com/fairies/pixie-hollow/help/</contactUsURL>
 	<directoryURL>FairyDirectory.html</directoryURL>
 	<distributionHomeURL>index_distribution.html</distributionHomeURL>
-	<liveURL><![CDATA[http://disney.go.com/fairies/pixie-hollow/game/]]></liveURL>
+	<liveURL><![CDATA[/fairies/pixie-hollow/game/]]></liveURL>
 	<cs_notifyurl>http://disney.go.com/fairies/pixie-hollow/membership/notification.html</cs_notifyurl>
 	<speedchatURL>http://disney.go.com/fairies/pixie-hollow/help/</speedchatURL>
 	<dnamePageURL>http://127.0.0.1/franchise/fairies/pixie-hollow/membership/dname.html</dnamePageURL>

@@ -1,5 +1,9 @@
 127.0.0.1:80
 
+handle /fairies/pixie-hollow/game/ {
+	file_server
+}
+
 reverse_proxy /fairies/* 127.0.0.1:8013
 reverse_proxy /dxd/* 127.0.0.1:8013
 reverse_proxy /commerce/* 127.0.0.1:8013
