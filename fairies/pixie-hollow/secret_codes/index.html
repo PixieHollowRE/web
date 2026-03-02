@@ -14,15 +14,15 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:		'http://127.0.0.1/franchise/fairies',
-		SSLRoot:	'https://disney.go.com/fairies',
-		API:		'http://127.0.0.1/fairies/api',
-		SSLAPI:		'http://127.0.0.1/fairies/api',
-		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
+		root:		'/fairies',
+		SSLRoot:	'/fairies',
+		API:		'/fairies/api',
+		SSLAPI:		'/fairies/api',
+		renderer:	'/fairies-render',
 		goKart:		'https://register.go.com/fairies/pixiehollow',
 		blog:		'http://blog.pixiehollow.go.com/blog',
-		DXD:		PROTOCOL + '://127.0.0.1:8013/dxd/flashAPI',
-		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/franchise/fairies',
+		DXD:		'/dxd/flashAPI',
+		CDN:		'/franchise/fairies',
 		UGC:		'http://premium.disney.go.com/fairies2',
 		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
 	};
@@ -444,5 +444,5 @@
 			cto.property = 'fai';
 			cto.track();
 		</script>
-	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d2abcd74b18a4de',t:'MTc3MTg5MTgwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</body>
 </html>
