@@ -1,0 +1,448 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js gte-ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8" />
+
+		<meta property="og:image" content="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/generic.png" />
+
+<script type="text/javascript">
+	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
+
+	var PATH = {
+		root:		'http://127.0.0.1/franchise/fairies',
+		SSLRoot:	'https://disney.go.com/fairies',
+		API:		'http://127.0.0.1/fairies/api',
+		SSLAPI:		'http://127.0.0.1/fairies/api',
+		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
+		goKart:		'https://register.go.com/fairies/pixiehollow',
+		blog:		'http://blog.pixiehollow.go.com/blog',
+		DXD:		PROTOCOL + '://127.0.0.1:8013/dxd/flashAPI',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/franchise/fairies',
+		UGC:		'http://premium.disney.go.com/fairies2',
+		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
+	};
+
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="icon" type="image/x-icon" />');
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="shortcut icon" type="image/x-icon" />');
+
+
+
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/combinded.css" media="screen" />');
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/print.css" media="print" />');
+	document.write('<scr' + 'ipt type="text/javascript" src="' + PATH.CDN + '/pixie-hollow/js/head.js"></scr' + 'ipt>');
+
+	// facebook
+    document.write('<link rel="stylesheet" type="text/css" href="http://cdn.dolimg.com/franchise/fairies/css/retailershadowbox.css" media="screen" />');
+    document.write('<link rel="stylesheet" type="text/css" href="http://cdn.dolimg.com/franchise/fairies/css/socialshadowbox.css" media="screen" />');
+
+
+</script>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		var flashvars = { ready: '$.flashProxy.init' };
+		var params = { menu: 'false', wmode: 'transparent', quality: 'best', scale: 'noscale', allowScriptAccess: 'always' };
+		var attributes = { };
+		swfobject.embedSWF(PATH.CDN + '/pixie-hollow/swf/proxy.swf', 'flash-proxy', '1', '1', '10', null, flashvars, params, attributes);
+	});
+
+	head.ready('dom', function() {
+		head.js({ plugin: PATH.CDN + '/pixie-hollow/js/plugin.js' }, function() {
+			window.fairies = new Fairies();
+			fairies.API = new API();
+			fairies.miniManager = new MiniManager();
+			fairies.popup = new Popup();
+		});
+	});
+
+	// facebook
+	head.ready('dom', function() {
+		head.js({ jqueryeasing: 'http://cdn.dolimg.com/franchise/fairies/js/jquery.easing.1.3.js' });
+	});
+	head.ready('dom', function() {
+		head.js({ retailerShadowbox: 'http://cdn.dolimg.com/franchise/fairies/js/retailerShadowbox.js' });
+	});
+	head.ready('dom', function() {
+		head.js({ socialShadowbox: 'http://cdn.dolimg.com/franchise/fairies/js/socialShadowbox.js' });
+	});
+
+
+
+</script>
+
+
+
+		<title>Secret Code | Toys and Video Games | Pixie Hollow | Disney Fairies</title>
+
+		<meta name="Description" content="Enter your Secret Code or  Pixie Pass to unlock special gifts in the online world of Pixie Hollow." />
+		<meta name="Keywords" content="secret code, code, pixie pass, pixi pass, fairy pass, faery pass, pixie hollow pass" />
+
+		<meta property="og:title" content="Disney Fairies | Pixie Hollow | Secret Codes" />
+		<meta property="og:description" content="Enter your Secret Code or  Pixie Pass to unlock special gifts in the online world of Pixie Hollow." />
+
+		<script type="text/javascript">
+			head.ready('plugin', function () {
+				head.js({ secretCodes : PATH.CDN + '/pixie-hollow/js/src/ph-secret-codes.js' }, function () {
+					fairies.secretCodes = new SecretCodes();
+				});
+			});
+		</script>
+	</head>
+	<body id="template-interior">
+		<div id="makeFacebook">
+
+	<div id='shadow'></div>
+	<div id='socialShadowboxContainer'></div>
+
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=288941724456707";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}
+	(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<div id="fb-root"></div>
+	<div id="fbHolder">
+		<div id="fbFrame" class="innerFrame" style="display:none;">
+			<fb:like href="http://www.facebook.com/DisneyFairies" send="false" width="400" show_faces="true" class="fbFrameLike"></fb:like>
+		</div>
+	</div>
+
+</div>
+		<div id="container">
+			<div id="header">
+
+<noscript><div id="notification">Aw Jingles! Your browser has JavaScript disabled. Please enable JavaScript to enter Pixie Hollow.</div></noscript>
+<!--
+	Not being about to defer loading of chrome sucks
+-->
+<!-- Matterhorn Chrome -->
+<div id="goc" style="height:40px">
+	<script type="text/javascript">
+		var GOC = { opts: { bg: "dark" }, queue: [ ] };
+		(function (d) {
+			var s = d.createElement("script");
+			s.async = true;
+			s.src = "//a.dilcdn.com/g/us/homepage/basic.js";
+			d.getElementsByTagName("head")[0].appendChild(s);
+		})(document);
+	</script>
+	<noscript>
+		<iframe src="//a.dilcdn.com/g/us/homepage/basic.html?bg=dark" frameborder="0" style="display:block;width:100%;height:40px"></iframe>
+	</noscript>
+</div>
+
+
+
+<div id="flash-proxy">
+</div>
+<div class="pixie-hollow-logo">
+	<a href="http://disney.go.com/fairies/#pixie-hollow-world"><span>Pixie Hollow</span></a>
+</div>
+<div class="navigation">
+	<div id="main-nav">
+		<ul>
+			<li>
+				<a href="http://disney.go.com/fairies/pixie-hollow-world.html">Pixie Hollow World</a>
+				<ul>
+					<li><a href="http://blog.pixiehollow.go.com/blog/nevernews/">News</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/membership/">Membership</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/parents/">Parents</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/help/">Help</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/secret-codes/">Secret Codes</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/pixie-central.html">Pixie Central</a>
+				<ul>
+					<li><a href="http://blog.pixiehollow.go.com/blog/nevernews/">News</a></li>
+					<li><a href="http://blog.pixiehollow.go.com/blog/events/">Events</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-central/contests/">Contests</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-central/gallery/">Fan Art</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-central/share/">Upload</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/products/clickables.html">Clickables</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/activities.html">Activities</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/downloads.html">Downloads</a></li>
+					<li><a href="http://disney.go.com/fairies/printables.html">Printables</a></li>
+					<li><a href="http://disney.go.com/fairies/crafts.html">Crafts</a></li>
+					<li><a href="http://disney.go.com/fairies/recipes.html">Recipes</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-central/gallery/">Art Galleries</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/movies.html">Movies & TV</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/movies-pixie-hollow-games.html">Pixie Hollow Games</a></li>
+					<li><a href="http://disney.go.com/fairies/movies-great-fairy-rescue.html">Great Fairy Rescue</a></li>
+					<li><a href="http://disney.go.com/fairies/movies-lost-treasure.html">Lost Treasure</a></li>
+					<li><a href="http://disney.go.com/fairies/movies-tinkerbell.html">Tinker Bell</a></li>
+					<li><a href="http://disney.go.com/fairies/movies-peter-pan.html">Peter Pan</a></li>
+					<li><a href="http://disney.go.com/fairies/movies-return-to-neverland.html">Return to Never Land</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/books.html">Books</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/disney-books.html">Disney Books</a></li>
+					<li><a href="http://disneydigitalbooks.go.com">Disney Digital Books</a></li>
+					<li><a href="http://disney.go.com/fairies/magazine.html">Magazine</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/parks.html">Parks & Travel</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/disney-world.html">Walt Disney World</a></li>
+					<li><a href="http://disney.go.com/fairies/disneyland.html">Disneyland</a></li>
+					<li><a href="http://disney.go.com/fairies/disney-cruise.html">Disney Cruise Line</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/live-events.html">Live Events</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/princess-wishes.html">Princess Wishes</a></li>
+					<li><a href="http://disney.go.com/fairies/magical-journey.html">Magical Journey</a></li>
+					<li><a href="http://disney.go.com/fairies/princess-classics.html">Princess Classics</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://disney.go.com/fairies/products.html">Products</a>
+				<ul>
+					<li><a href="http://disney.go.com/fairies/videogames.html">Video Games</a></li>
+					<li><a href="http://disney.go.com/fairies/tinker-bell-soundtrack.html">Music</a></li>
+					<li><a href="http://disney.go.com/fairies/magazine.html">Magazine</a></li>
+					<li><a href="http://disney.go.com/fairies/pixie-hollow/products/clickables.html">Clickables</a></li>
+					<li><a href="http://www.disneystore.com/tinker-bell-fairies/clothes/mn/1000054+1000204/?CMP=OTL-Dcom&att=fairiesfranchise">Apparel</a></li>
+					<li><a href="http://www.disneystore.com/tinker-bell-fairies/toys/mn/1000054+1000208/?CMP=OTL-Dcom&att=fairiesfranchise">Toys</a></li>
+					<li><a href="http://www.disneystore.com/tinker-bell-fairies/home-decor/mn/1000054+1000207/?CMP=OTL-Dcom&att=fairiesfranchise">Home & Decor</a></li>
+					<li><a href="http://www.disneystore.com/tinker-bell-fairies/pins-art-collectibles/mn/1000054+1000202/?CMP=OTL-Dcom&att=fairiesfranchise">Collectibles</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+	document.write('<scr' + 'ipt type="text/javascript" src="' + PATH.CDN + '/pixie-hollow/js/min/swfaddress.js"></scr' + 'ipt>');
+</script>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		var flashvars = { pageid: 'mainnav', xml: PATH.CDN + '/pixie-hollow/xml/mainnav' + ((PROTOCOL == 'https') ? '.ssl' : '') + '.xml', resizeCallback: 'fairies.resizeNavigation', initpage: fairies.getNavigationSection() };
+		var params = { menu: 'false', wmode: 'transparent', quality: 'best', scale: 'noscale', allowScriptAccess: 'always' };
+		var attributes = { wmode: 'transparent' };
+		swfobject.embedSWF(PATH.CDN + '/pixie-hollow/swf/mainnav.swf', 'main-nav', '230', '525', '10', null, flashvars, params, attributes);
+	});
+</script>
+<div class="member-info">
+	<div class="member-info-content">
+	</div>
+</div>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		fairies.preload([
+			PATH.CDN + '/pixie-hollow/img/templates/popup/manager.png'
+		]);
+	});
+</script>
+<div class="popup popup-manager">
+	<a href="#" class="close-button popup-close"><span>Close</span></a>
+	<div class="popup-logo">
+		<span>Disney Fairies Pixie Hollow</span>
+	</div>
+	<div class="popup-promo">
+		<div class="top-extras"></div>
+		<img src="https://s.dolimg.com/franchise/fairies/pixie-hollow/img/misc/blank.gif" width="363" height="361" alt="" />
+		<div class="bottom-extras"></div>
+	</div>
+	<div class="popup-info">
+		<div class="loader-container"><div id="mini-manager-loader"></div></div>
+		<div class="login">
+			<h2>Log In</h2>
+			<p>
+				If you previously registered here or at any other Disney site, you can log in below with your existing Account ID and Password.
+			</p>
+
+			<form id="login-form" method="post" action="/" onsubmit="return false;">
+				<h5>Account ID</h5>
+				<p>
+					<input type="text" class="text-input" name="username" tabindex="1" />
+				</p>
+				<div class="forgot-link">
+					<a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Account ID</a>
+				</div>
+
+				<h5>Password</h5>
+				<p>
+					<input type="password" class="text-input" name="password" tabindex="2" />
+				</p>
+				<div class="forgot-link">
+					<a href="https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Password?</a>
+				</div>
+
+				<p>
+					<div class="clear">&nbsp;</div>
+				</p>
+
+				<p class="center">
+					<a href="#" class="button-orange submit-button"><span>Log In</span></a>
+				</p>
+			</form>
+		</div>
+		<div class="choose">
+
+		</div>
+	</div>
+</div>
+			</div>
+
+			<div id="content">
+				<h1>Secret Codes</h1>
+				<div class="inner-content secret-codes">
+					<p class="bread-crumbs">
+						<a href="http://disney.go.com/fairies/#pixie-hollow-world">Pixie Hollow</a> &gt;
+						<span>Secret Codes</span>
+					</p>
+
+					<h2>Secret Codes/Pixie Passes</h2>
+
+					<p class="center">
+						<img src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/headers/secret-codes.jpg" width="482" height="256" alt="Secret Codes Kit and Cheese " />
+					</p>
+
+					<form id="code-form" class="code-form" method="POST">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="title-column"><h5>Enter Your Code Here:</h5></td>
+								<td><input id="code-input" class="text-input" type="text" name="code" /></td>
+							</tr>
+							<tr>
+								<td class="title-column"></td>
+								<td><a href="#" id="code-submit" class="button-orange"><span>Submit</span></a></td>
+							</tr>
+						</table>
+
+						<div class="loading-container"><div id="secret-codes-loading-swf"></div></div>
+					</form>
+
+					<p>
+						Attention, Pixies! Disney Fairies Pixie Hollow will be closing on September 19, 2013. All Secret Codes received from select Disney Fairies toys can be redeemed in the online world of Pixie Hollow until the closure date. <a href="http://disney.go.com/fairies/pixie-hollow/closing/">Learn More.</a>.
+					</p>
+
+					<div class="popup popup-secret-code-success">
+						<h2>Thank You!</h2>
+						<div class="popup-content">
+							<a href="#" class="popup-close close-button"><span>Close</span></a>
+							<div class="center">
+								<p class="center">
+									<img src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/headers/secret-codes.jpg" width="482" height="256" alt="" />
+								</p>
+
+								<h4>Thank You!</h4>
+								<p id="reward-description">
+
+								</p>
+								<p>
+									<a href="#" id="success-play" class="button-play"><span>play</span></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer">
+
+<div class="powered-by">
+	<div id="powered-by"></div>
+	<script type="text/javascript">
+		head.ready('plugin', function() {
+			setTimeout(function() {
+				swfobject.embedSWF(
+					PATH.CDN + '/pixie-hollow/swf/powered-by-pixie.swf', 'powered-by', '300', '30', '10', 'transparent',
+					{ pageid: 'mainnav', xml: PATH.CDN + '/pixie-hollow/xml/powered-by-footer.xml' },
+					{ menu: 'false', bgcolor: '#000000', quality: 'best', scale: 'noscale', allowScriptAccess: 'always', wmode: 'transparent' }
+				);
+			}, 2000);
+		});
+	</script>
+</div>
+<p class="country">
+	<script type="text/javascript">
+		document.write('<img src="' + PATH.CDN + '/pixie-hollow/img/misc/globe.png" width="37" height="36" alt="Globe" />');
+	</script>
+	<select id="countrySelect">
+		<option value="default" selected="selected">Choose Country</option>
+		<option value="0">Australia</option>
+		<option value="1">Belgium</option>
+		<option value="2">Brazil</option>
+		<option value="3">Canada</option>
+		<option value="4">Denmark</option>
+		<option value="5">Disney Latino</option>
+		<option value="6">Finland</option>
+		<option value="7">France</option>
+		<option value="8">Germany</option>
+		<option value="9">India</option>
+		<option value="10">Italy</option>
+		<option value="11">Japan</option>
+		<option value="12">Netherlands</option>
+		<option value="13">Norway</option>
+		<option value="14">Russia</option>
+		<option value="15">South Africa</option>
+		<option value="16">Spain</option>
+		<option value="17">Sweden</option>
+		<option value="18">United Kingdom</option>
+		<option value="19">USA</option>
+	</select>
+</p>
+
+
+<div align="center" id="legalFooterCustomDiv">
+	<table cellspacing="0" cellpadding="0" align="center" width="996" >
+		<tbody>
+			<tr width="996">
+			<td colspan="3">
+				<strong>Disney Fairies</strong>
+			</td>
+			</tr>
+			<tr width="996">
+			<td>
+				<a target="_self" class="dolFooterLnk" href="http://disney.go.com/fairies/#/pixie-hollow-world">Create a Fairy</a> | <a class="dolFooterLnk" href="http://disney.go.com/fairies/sitemap.html">Sitemap</a>
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<div class="legal">
+	<script type="text/javascript">
+		document.write('<scr' + 'ipt language="javascript"  src="' + PATH.globalElements + '/footer.js?footerDisplayMode=featuredAndLegal&footerStyleSet=dark&styleBackground=000000"></s' + 'cript>');
+	</script>
+</div>
+			</div>
+		</div>
+
+		<script language="javascript" src="https://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+		<script language="javascript">
+			cto = new CTO();
+			cto.account = 'pixiehollow';
+			cto.category = 'dgame';
+			cto.site = 'fai';
+			cto.siteSection = 'pixiehollow:website:secretcodes';
+			cto.pageName = 'secretredemption';
+			cto.contentType = 'regular';
+			cto.property = 'fai';
+			cto.track();
+		</script>
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d2abcd74b18a4de',t:'MTc3MTg5MTgwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

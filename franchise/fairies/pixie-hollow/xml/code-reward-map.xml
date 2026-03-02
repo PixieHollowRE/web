@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rewards>
+	<reward>
+		<itemId>1</itemId>
+		<name>Rose Cami</name>
+		<description>One of Rosetta's favorites!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>14</itemId>
+		<name>Hibiscus Top</name>
+		<description>A top for dancing beneath the stars!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>1012</itemId>
+		<name>Sparkle Poppy Skirt</name>
+		<description>Elegance inspired by butterfly wings.</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>1514</itemId>
+		<name>Fressia Flower Wrist Flounce</name>
+		<description>This cute and classy bracelet comes to you direct from Spring Valley.</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>1550</itemId>
+		<name>Firefly Cuff</name>
+		<description>This great little striped cuff completes the Firefly outfit.</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>1561</itemId>
+		<name>Freesia Flower Wrist Flounce</name>
+		<description>This cute and classy bracelet comes to you direct from Spring Valley. </description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>2027</itemId>
+		<name>Satin Flower Garland</name>
+		<description>This soft satiny accent is perfect for a flight through Spring Valley.</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>2514</itemId>
+		<name>Stargazer Pendant</name>
+		<description>Formed out of stargazer petals, this pendant is said to be a lucky charm!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>2521</itemId>
+		<name>Leaf-and-Bloom Necklace</name>
+		<description>Make an elegant entrance wearing this special piece.</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>3014</itemId>
+		<name>Freesia Flower Ankle Flounce</name>
+		<description>Fly in style with this spring-inspired accent!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>7526</itemId>
+		<name>Acorn Kettle</name>
+		<description>When it's teatime, this kettle will make any blend delicious!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>7505</itemId>
+		<name>Crocus Bulb Pitcher</name>
+		<description>A hollowed-out flower bulb is perfect for pouring fruit nectars for your guests!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>8014</itemId>
+		<name>Raspberries</name>
+		<description>Juicy and delicious, everyone wants to pick these yummy treats!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>8005</itemId>
+		<name>Daisy Petals</name>
+		<description>Daisies are perfect for playful and fun-loving Fairies and Sparrow Men!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>8007</itemId>
+		<name>Buttercup Petals</name>
+		<description>The golden glow from these petals brightens up any creation!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>8002</itemId>
+		<name>Maple Leaves</name>
+		<description>The most popular leaf in Autumn Forest!</description>
+		<image></image>
+	</reward>
+	<reward>
+		<itemId>8006</itemId>
+		<name>Lily Petals</name>
+		<description>Lily Petals add extra cheer to clothing!</description>
+		<image></image>
+	</reward>
+<rewards>

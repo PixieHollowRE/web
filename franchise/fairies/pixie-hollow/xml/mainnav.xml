@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <primarycarousel>
 	<page id="mainnav" template="com.disney.fairies.mainnav.MainNav" src="mainnav.swf">
-		<nav id="pixie-hollow-world" target="_self" href="http://disney.go.com/fairies/#pixie-hollow-world">
+		<nav id="pixie-hollow-world" target="_self" href="/fairies/#pixie-hollow-world">
 			<title>Pixie Hollow World</title>
-			<nav id="pixie-hollow-world/closing" href="http://disney.go.com/fairies/pixie-hollow/membership/" target="_self">About Closing</nav>
-			<nav id="pixie-hollow-world/parents" href="http://disney.go.com/fairies/pixie-hollow/parents/" target="_self">Parents</nav>
-			<nav id="pixie-hollow-world/help" href="http://disney.go.com/fairies/pixie-hollow/help/" target="_self">Help</nav>
-			<nav id="pixie-hollow-world/secret-codes" href="http://disney.go.com/fairies/pixie-hollow/secret-codes/" target="_self">Secret Codes</nav>
+			<nav id="pixie-hollow-world/closing" href="/fairies/pixie-hollow/membership/" target="_self">About Closing</nav>
+			<nav id="pixie-hollow-world/parents" href="/fairies/pixie-hollow/parents/" target="_self">Parents</nav>
+			<nav id="pixie-hollow-world/help" href="/fairies/pixie-hollow/help/" target="_self">Help</nav>
+			<nav id="pixie-hollow-world/secret-codes" href="/fairies/pixie-hollow/secret-codes/" target="_self">Secret Codes</nav>
 		</nav>
-		<nav id="pixie-central" target="_self" href="http://disney.go.com/fairies/#pixie-central">
+		<nav id="pixie-central" target="_self" href="/fairies/#pixie-central">
 			<title>Pixie Central</title>
 			<nav id="pixie-central/nevernews" href="http://blog.pixiehollow.go.com/blog/nevernews/" target="_self">News</nav>
 			<nav id="pixie-central/events" href="http://blog.pixiehollow.go.com/blog/events/" target="_self">Events</nav>
-			<nav id="pixie-central/contests" href="http://disney.go.com/fairies/pixie-central/contests/" target="_self">Contests</nav>
-			<nav id="pixie-central/gallery" href="http://disney.go.com/fairies/pixie-central/gallery/" target="_self">Fan Art</nav>
-			<nav id="pixie-central/share" href="http://disney.go.com/fairies/pixie-central/share/" target="_self">Upload</nav>
-			<nav id="pixie-central/calendar" href="http://disney.go.com/fairies/pixie-central/calendar.html" target="_self">Calendar</nav>
+			<nav id="pixie-central/contests" href="/fairies/pixie-central/contests/" target="_self">Contests</nav>
+			<nav id="pixie-central/gallery" href="/fairies/pixie-central/gallery/" target="_self">Fan Art</nav>
+			<nav id="pixie-central/share" href="/fairies/pixie-central/share/" target="_self">Upload</nav>
+			<nav id="pixie-central/calendar" href="/fairies/pixie-central/calendar.html" target="_self">Calendar</nav>
 		</nav>
 
-		<nav id="characters" href="http://disney.go.com/fairies/#characters" target="_self">Fairies &amp; Friends</nav>
-		<nav id="videos" href="http://disney.go.com/fairies/#videos" target="_self">Videos</nav>
+		<nav id="characters" href="/fairies/#characters" target="_self">Fairies &amp; Friends</nav>
+		<nav id="videos" href="/fairies/#videos" target="_self">Videos</nav>
 
-		<nav id="activities" href="http://disney.go.com/fairies/#activities" target="_self">
+		<nav id="activities" href="/fairies/#activities" target="_self">
 			<title>Activities</title>
-			<nav id="activities/viewall/downloads" target="_self" href="http://disney.go.com/fairies/#activities/viewall/downloads">Downloads</nav>
-			<nav id="activities/viewall/printables" target="_self" href="http://disney.go.com/fairies/#activities/viewall/printables">Printables</nav>
-			<nav id="activities/viewall/crafts" target="_self" href="http://disney.go.com/fairies/#activities/viewall/crafts">Crafts</nav>
-			<nav id="activities/viewall/recipes" target="_self" href="http://disney.go.com/fairies/#activities/viewall/recipes">Recipes</nav>
-			<nav id="activities/galleries/fan-art" target="_self" href="http://disney.go.com/fairies/pixie-central/share/">Art Galleries</nav>
+			<nav id="activities/viewall/downloads" target="_self" href="/fairies/#activities/viewall/downloads">Downloads</nav>
+			<nav id="activities/viewall/printables" target="_self" href="/fairies/#activities/viewall/printables">Printables</nav>
+			<nav id="activities/viewall/crafts" target="_self" href="/fairies/#activities/viewall/crafts">Crafts</nav>
+			<nav id="activities/viewall/recipes" target="_self" href="/fairies/#activities/viewall/recipes">Recipes</nav>
+			<nav id="activities/galleries/fan-art" target="_self" href="/fairies/pixie-central/share/">Art Galleries</nav>
 		</nav>
 
-		<nav id="games" target="_self" href="http://disney.go.com/fairies/#games">Games</nav>
-		<nav id="movies-tv" target="_self" href="http://disney.go.com/fairies/#movies-tv">
+		<nav id="games" target="_self" href="/fairies/#games">Games</nav>
+		<nav id="movies-tv" target="_self" href="/fairies/#movies-tv">
 			<title>Movies &amp; TV</title>
-			<nav id="movies-tv/pixie-hollow-games" target="_self" href="http://disney.go.com/fairies/#movies-tv/pixie-hollow-games">Pixie Hollow Games</nav>
-			<nav id="movies-tv/great-fairy-rescue" target="_self" href="http://disney.go.com/fairies/#movies-tv/great-fairy-rescue">Great Fairy Rescue</nav>
-			<nav id="movies-tv/lost-treasure" target="_self" href="http://disney.go.com/fairies/#movies-tv/lost-treasure">Lost Treasure</nav>
-			<nav id="movies-tv/tinkerbell" target="_self" href="http://disney.go.com/fairies/#movies-tv/tinkerbell">Tinker Bell</nav>
-			<nav id="movies-tv/peter-pan" target="_self" href="http://disney.go.com/fairies/#movies-tv/peter-pan">Peter Pan</nav>
-			<nav id="movies-tv/return-to-neverland" target="_self" href="http://disney.go.com/fairies/#movies-tv/return-to-neverland">Return to Never Land</nav>
+			<nav id="movies-tv/pixie-hollow-games" target="_self" href="/fairies/#movies-tv/pixie-hollow-games">Pixie Hollow Games</nav>
+			<nav id="movies-tv/great-fairy-rescue" target="_self" href="/fairies/#movies-tv/great-fairy-rescue">Great Fairy Rescue</nav>
+			<nav id="movies-tv/lost-treasure" target="_self" href="/fairies/#movies-tv/lost-treasure">Lost Treasure</nav>
+			<nav id="movies-tv/tinkerbell" target="_self" href="/fairies/#movies-tv/tinkerbell">Tinker Bell</nav>
+			<nav id="movies-tv/peter-pan" target="_self" href="/fairies/#movies-tv/peter-pan">Peter Pan</nav>
+			<nav id="movies-tv/return-to-neverland" target="_self" href="/fairies/#movies-tv/return-to-neverland">Return to Never Land</nav>
 		</nav>
 
-		<nav id="books" target="_self" href="http://disney.go.com/fairies/#books">
+		<nav id="books" target="_self" href="/fairies/#books">
 			<title>Books</title>
-			<nav id="books/viewall" target="_self" href="http://disney.go.com/fairies/#books/viewall">Disney Books</nav>
+			<nav id="books/viewall" target="_self" href="/fairies/#books/viewall">Disney Books</nav>
 			<nav id="books/digital-books" href="http://disneydigitalbooks.go.com" target="_blank">Disney Digital Books</nav>
-			<nav id="books/magazine" target="_self" href="http://disney.go.com/fairies/#books/magazine">Magazine</nav>
+			<nav id="books/magazine" target="_self" href="/fairies/#books/magazine">Magazine</nav>
 			<nav id="books/online-samples" target="coming_soon">Online Samples</nav>
 		</nav>
 
-		<nav id="parks" target="_self" href="http://disney.go.com/fairies/#parks">
+		<nav id="parks" target="_self" href="/fairies/#parks">
 			<title>Parks & Travel</title>
-			<nav id="parks" target="_self" href="http://disney.go.com/fairies/#parks/disney-world">Walt Disney World</nav>
-			<nav id="parks/disneyland" target="_self" href="http://disney.go.com/fairies/#parks/disneyland">Disneyland</nav>
-			<nav id="parks/disney-cruise" target="_self" href="http://disney.go.com/fairies/#parks/disney-cruise">Disney Cruise Line</nav>
+			<nav id="parks" target="_self" href="/fairies/#parks/disney-world">Walt Disney World</nav>
+			<nav id="parks/disneyland" target="_self" href="/fairies/#parks/disneyland">Disneyland</nav>
+			<nav id="parks/disney-cruise" target="_self" href="/fairies/#parks/disney-cruise">Disney Cruise Line</nav>
 		</nav>
-		<nav id="live-events" target="_self" href="http://disney.go.com/fairies/#live-events">
+		<nav id="live-events" target="_self" href="/fairies/#live-events">
 			<title>Live Events</title>
-			<nav id="live-events/princess-wishes" target="_self" href="http://disney.go.com/fairies/#live-events/princess-wishes">Princess Wishes</nav>
-			<nav id="live-events/princess-classics" target="_self" href="http://disney.go.com/fairies/#live-events/princess-classics">Princess Classics</nav>
-			<nav id="live-events/magical-journey" target="_self" href="http://disney.go.com/fairies/#live-events/magical-journey">Magical Journey</nav>
+			<nav id="live-events/princess-wishes" target="_self" href="/fairies/#live-events/princess-wishes">Princess Wishes</nav>
+			<nav id="live-events/princess-classics" target="_self" href="/fairies/#live-events/princess-classics">Princess Classics</nav>
+			<nav id="live-events/magical-journey" target="_self" href="/fairies/#live-events/magical-journey">Magical Journey</nav>
 		</nav>
 
-		<nav id="products" target="_self" href="http://disney.go.com/fairies/#products">
+		<nav id="products" target="_self" href="/fairies/#products">
 			<title>Products</title>
-			<nav id="products/videogames" target="_self" href="http://disney.go.com/fairies/#products/videogames">Video Games</nav>
-			<nav id="products/music" target="_self" href="http://disney.go.com/fairies/#products/music">Music</nav>
-			<nav id="books/magazine" target="_self" href="http://disney.go.com/fairies/#books/magazine">Magazine</nav>
+			<nav id="products/videogames" target="_self" href="/fairies/#products/videogames">Video Games</nav>
+			<nav id="products/music" target="_self" href="/fairies/#products/music">Music</nav>
+			<nav id="books/magazine" target="_self" href="/fairies/#books/magazine">Magazine</nav>
 			<nav id="mobile" target="coming_soon">Mobile</nav>
-			<nav id="clickables" target="_self" href="http://disney.go.com/fairies/pixie-hollow/products/clickables.html">Clickables</nav>
+			<nav id="clickables" target="_self" href="/fairies/pixie-hollow/products/clickables.html">Clickables</nav>
 			<nav id="apparel" target="_self" href="http://www.disneystore.com/tinker-bell-fairies/clothes/mn/1000054+1000204/?CMP=OTL-Dcom&att=fairiesfranchise">Apparel</nav>
 			<nav id="toys" target="_self" href="http://www.disneystore.com/tinker-bell-fairies/toys/mn/1000054+1000208/?CMP=OTL-Dcom&att=fairiesfranchise">Toys</nav>
 			<nav id="home" target="_self" href="http://www.disneystore.com/tinker-bell-fairies/home-decor/mn/1000054+1000207/?CMP=OTL-Dcom&att=fairiesfranchise">Home &amp; Decor</nav>
@@ -78,7 +78,7 @@
 		<promo id="playbtn" href="javascript: void(fairies.API.openMiniManager())" target="_self"><tiptext><![CDATA[Pixie Hollow World]]></tiptext></promo>
 
 		<!-- took out the image url because the logo is now baked into the swf for optimization. -->
-		<promo id="mainnav_logo" target="_self" href="http://disney.go.com/fairies/#home" src="" position='{"x":"35","y":"-10"}' />
+		<promo id="mainnav_logo" target="_self" href="/fairies/#home" src="" position='{"x":"35","y":"-10"}' />
 
 		<!-- id="fontLib" is a special id for the fonts swf - do not change it or re-use for anything other than the fonts swf. this only belongs here in the standalone version...
 		otherwise it will exist in the global site xml. -->
